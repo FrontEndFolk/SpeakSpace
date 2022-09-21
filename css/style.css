@@ -64,7 +64,9 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 1rem;
+}
+.comment-feed__item {
+  margin-top: 1rem;
 }
 .comment-feed__item--nested {
   position: relative;
@@ -81,15 +83,6 @@ main {
   background-color: var(--LightGrayishBlue);
 }
 
-.comm {
-  background-color: var(--White);
-  border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 1rem;
-  padding: 1rem;
-}
 .comm__votes-body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -114,23 +107,26 @@ main {
   color: var(--LightGrayishBlue);
 }
 .comm__body {
+  background-color: var(--White);
+  padding: 1rem;
+  border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  gap: 1rem;
   width: 100%;
 }
 .comm__main-info {
   gap: 1rem;
+}
+.comm__main-info-body-firstrow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 2rem;
 }
 .comm__profile-photo {
   width: 35px;
