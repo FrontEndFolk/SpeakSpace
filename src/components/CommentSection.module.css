@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --Moderate-blue: hsl(238, 40%, 52%);
+    --Soft-Red: hsl(358, 79%, 66%; ) --Light-grayish-blue: hsl(239, 57%, 85%);
+    --Pale-red: hsl(357, 100%, 86%);
+    --Dark-blue: hsl(212, 24%, 26%);
+    --Grayish-Blue: hsl(211, 10%, 45%);
+    --Light-gray: hsl(223, 19%, 93%);
+    --Very-light-gray: hsl(228, 33%, 97%);
+    --White: hsl(0, 0%, 100%);
+}
+
+
+.comment {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.comment__container {
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    background-color: var(--White);
+}
+
+
+.comment_reply {
+    padding-left: 100px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.stick {
+    position: relative;
+    z-index: 1;
+}
+
+.stick::after {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    z-index: 1;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 2px;
+    border-radius: 2px;
+    background-color: var(--Light-gray);
+}
+
+.comment__score {
+    flex-basis: 5%;
+}
+
+.comment__body {
+    flex-grow: 1;
+}
+
+.comment__avatar {
+    margin-right: 10px;
+}
+
+.comment__avatar * {
+    width: 30px;
+    height: 30px;
+}
+
+.comment__content {
+    font-size: 14px;
+    color: var(--Grayish-Blue);
+    margin-top: 15px;
+}
+
+.comment__content p {
+    white-space: pre-line;
+}
+
+.commnet__text_hidden {
+    display: none;
+}
+
+.comment__info {
+    display: flex;
+    align-items: center;
+
+}
+
+.comment__info_name {
+    color: var(--Dark-blue);
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.comment__info_time {
+    flex-grow: 1;
+    color: var(--Grayish-Blue);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+
+
+.replyBar {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+/* .replyBar__avatar {} */
+
+.replyBar__avatar * {
+    width: 30px;
+    height: 30px;
+}
+
+.replyBar__input {
+    flex-basis: 70%;
+    border-radius: 10px;
+    padding: 10px 16px;
+    color: var(--Grayish-Blue);
+    outline: none;
+    resize: none;
+}
+
+.editBar__input {
+    display: block;
+    width: 100%;
+    resize: none;
+    border-radius: 10px;
+    padding: 10px 16px;
+    color: var(--Grayish-Blue);
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.editBar__button_container {
+    width: 100px;
+    margin-left: auto;
+}
+
+.you {
+    background-color: var(--Moderate-blue);
+    color: var(--White);
+    font-size: 10px;
+    padding: 2px 4px;
+    border-radius: 2px;
+    text-transform: lowercase;
+    vertical-align: middle;
+    font-weight: 500;
+}

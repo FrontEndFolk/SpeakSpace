@@ -1,0 +1,19 @@
+.button {
+    transition: all 0.3s ease;
+    border: none;
+    background-color: #fff;
+    color: var(--Moderate-blue);
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.button:hover {
+    opacity: 0.5;
+}
+
+.button_delete {
+    color: rgb(223, 60, 60);
+}

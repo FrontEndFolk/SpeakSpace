@@ -1,0 +1,25 @@
+.button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: var(--White);
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.button__container {
+    transition: all 0.3s ease;
+    opacity: 1;
+    display: inline-block;
+    background-color: var(--Moderate-blue);
+    border-radius: 10px;
+    width: 85px;
+    height: 40px;
+}
+
+.button__container:hover {
+    opacity: 0.5;
+}

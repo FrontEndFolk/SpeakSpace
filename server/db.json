@@ -1,0 +1,191 @@
+{
+  "currentUser": {
+    "image": {
+      "png": "./images/avatars/image-juliusomo.png",
+      "webp": "./images/avatars/image-juliusomo.webp"
+    },
+    "username": "juliusomo"
+  },
+  "comments": [
+    {
+      "id": 1,
+      "content": "Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.",
+      "createdAt": 1683458520000,
+      "score": 18,
+      "user": {
+        "image": {
+          "png": "./images/avatars/image-amyrobson.png",
+          "webp": "./images/avatars/image-amyrobson.webp"
+        },
+        "username": "anna"
+      },
+      "replies": [
+        {
+          "commentId": 1,
+          "content": " reply test",
+          "createdAt": 1688392799698,
+          "score": 0,
+          "replyingTo": "anna",
+          "user": {
+            "image": {
+              "png": "./images/avatars/image-juliusomo.png",
+              "webp": "./images/avatars/image-juliusomo.webp"
+            },
+            "username": "juliusomo"
+          },
+          "id": 24
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "content": "Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!",
+      "createdAt": 1685446380000,
+      "score": 5,
+      "user": {
+        "image": {
+          "png": "./images/avatars/image-maxblagun.png",
+          "webp": "./images/avatars/image-maxblagun.webp"
+        },
+        "username": "maxblagun"
+      },
+      "replies": [
+        {
+          "commentId": 2,
+          "content": " reply 1",
+          "createdAt": 1688392669113,
+          "score": 1,
+          "replyingTo": "maxblagun",
+          "user": {
+            "image": {
+              "png": "./images/avatars/image-juliusomo.png",
+              "webp": "./images/avatars/image-juliusomo.webp"
+            },
+            "username": "juliusomo"
+          },
+          "id": 21
+        },
+        {
+          "commentId": 2,
+          "content": " reply 2",
+          "createdAt": 1688392728543,
+          "score": -1,
+          "replyingTo": "maxblagun",
+          "user": {
+            "image": {
+              "png": "./images/avatars/image-juliusomo.png",
+              "webp": "./images/avatars/image-juliusomo.webp"
+            },
+            "username": "juliusomo"
+          },
+          "id": 22
+        },
+        {
+          "commentId": 2,
+          "content": " reply 3",
+          "createdAt": 1688392751294,
+          "score": 1,
+          "replyingTo": "maxblagun",
+          "user": {
+            "image": {
+              "png": "./images/avatars/image-juliusomo.png",
+              "webp": "./images/avatars/image-juliusomo.webp"
+            },
+            "username": "juliusomo"
+          },
+          "id": 23
+        }
+      ]
+    },
+    {
+      "content": "multiline\ncomment",
+      "createdAt": 1687714028526,
+      "score": -1,
+      "user": {
+        "username": "juliusomo",
+        "image": {
+          "png": "./images/avatars/image-juliusomo.png",
+          "webp": "./images/avatars/image-juliusomo.webp"
+        }
+      },
+      "id": 7,
+      "replies": []
+    },
+    {
+      "content": "we so back",
+      "createdAt": 1750342006242,
+      "score": 1,
+      "user": {
+        "username": "juliusomo",
+        "image": {
+          "png": "./images/avatars/image-juliusomo.png",
+          "webp": "./images/avatars/image-juliusomo.webp"
+        }
+      },
+      "id": 11,
+      "replies": []
+    }
+  ],
+  "replies": [
+    {
+      "commentId": 2,
+      "content": " reply 1",
+      "createdAt": 1688392669113,
+      "score": 1,
+      "replyingTo": "maxblagun",
+      "user": {
+        "image": {
+          "png": "./images/avatars/image-juliusomo.png",
+          "webp": "./images/avatars/image-juliusomo.webp"
+        },
+        "username": "juliusomo"
+      },
+      "id": 21
+    },
+    {
+      "commentId": 2,
+      "content": " reply 2",
+      "createdAt": 1688392728543,
+      "score": -1,
+      "replyingTo": "maxblagun",
+      "user": {
+        "image": {
+          "png": "./images/avatars/image-juliusomo.png",
+          "webp": "./images/avatars/image-juliusomo.webp"
+        },
+        "username": "juliusomo"
+      },
+      "id": 22
+    },
+    {
+      "commentId": 2,
+      "content": " reply 3",
+      "createdAt": 1688392751294,
+      "score": 1,
+      "replyingTo": "maxblagun",
+      "user": {
+        "image": {
+          "png": "./images/avatars/image-juliusomo.png",
+          "webp": "./images/avatars/image-juliusomo.webp"
+        },
+        "username": "juliusomo"
+      },
+      "id": 23
+    },
+    {
+      "commentId": 1,
+      "content": " reply test",
+      "createdAt": 1688392799698,
+      "score": 0,
+      "replyingTo": "anna",
+      "user": {
+        "image": {
+          "png": "./images/avatars/image-juliusomo.png",
+          "webp": "./images/avatars/image-juliusomo.webp"
+        },
+        "username": "juliusomo"
+      },
+      "id": 24
+    }
+  ]
+}
